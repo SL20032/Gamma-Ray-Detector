@@ -20784,9 +20784,9 @@ W = angled&lt;p&gt;
 <wire x1="70.358" y1="88.9" x2="70.358" y2="3.302" width="0.1524" layer="97" style="longdash"/>
 <wire x1="70.358" y1="3.302" x2="70.358" y2="-82.55" width="0.1524" layer="97" style="longdash"/>
 <wire x1="238.76" y1="3.302" x2="180.086" y2="3.302" width="0.1524" layer="97" style="longdash"/>
-<wire x1="180.086" y1="3.302" x2="159.766" y2="3.302" width="0.1524" layer="97" style="longdash"/>
-<wire x1="159.766" y1="3.302" x2="70.358" y2="3.302" width="0.1524" layer="97" style="longdash"/>
-<wire x1="159.766" y1="89.154" x2="159.766" y2="3.302" width="0.1524" layer="97" style="longdash"/>
+<wire x1="180.086" y1="3.302" x2="162.306" y2="3.302" width="0.1524" layer="97" style="longdash"/>
+<wire x1="162.306" y1="3.302" x2="70.358" y2="3.302" width="0.1524" layer="97" style="longdash"/>
+<wire x1="162.306" y1="89.154" x2="162.306" y2="3.302" width="0.1524" layer="97" style="longdash"/>
 <wire x1="180.086" y1="3.302" x2="180.086" y2="-62.23" width="0.1524" layer="97" style="longdash"/>
 <text x="30.48" y="-78.74" size="2.54" layer="97">DETECTION HEAD x2</text>
 <text x="109.22" y="-78.74" size="2.54" layer="97">POWER SECTION</text>
@@ -20797,6 +20797,11 @@ W = angled&lt;p&gt;
 <text x="144.78" y="-81.28" size="2.54" layer="94">Autors:
 Stanisław Lisek
 Marcin Kuśmierski</text>
+<wire x1="-10.16" y1="73.66" x2="-10.16" y2="-50.8" width="0.1524" layer="98"/>
+<wire x1="-10.16" y1="-50.8" x2="63.5" y2="-50.8" width="0.1524" layer="98"/>
+<wire x1="63.5" y1="-50.8" x2="63.5" y2="73.66" width="0.1524" layer="98"/>
+<wire x1="63.5" y1="73.66" x2="-10.16" y2="73.66" width="0.1524" layer="98"/>
+<text x="-7.62" y="-48.26" size="1.778" layer="98">this part of circut requires matel shielding (aluminum or copper)</text>
 </plain>
 <instances>
 <instance part="R3" gate="G$1" x="30.48" y="53.34" smashed="yes" rot="R90">
