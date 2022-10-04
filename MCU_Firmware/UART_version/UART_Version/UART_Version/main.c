@@ -10,6 +10,7 @@
 #include <util/delay.h>
 
 #include "UART.h"
+#include "Counter.h"
 
 void CLK_init(void)
 {
@@ -23,11 +24,12 @@ int main(void)
 {
 	CLK_init();
     UART_Init();
+	COUNTER_Init();
+	sei();
 	
     while (1) 
     {
-		//UART_Send("TEST",4);
-		UART_Send_Frame(0xaaaa,0xfff);
+		UART_Send_Frame(Read_Counter(),Read_CPM());
 		_delay_ms(100);
     }
 }

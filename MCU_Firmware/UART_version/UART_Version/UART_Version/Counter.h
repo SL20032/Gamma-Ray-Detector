@@ -11,7 +11,11 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include "config.h"
+#include "UART.h"
 
-
+void COUNTER_Init(void);
+uint16_t Read_Counter(void);
+uint16_t Read_CPM(void);
 
 #endif /* COUNTER_H_ */
